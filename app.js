@@ -89,6 +89,7 @@ const viewDepartment = () => {
     db.query(sql, (err, rows) => {
         if (err) throw err
         console.table(rows);
+        
     })
 };
 
@@ -97,48 +98,86 @@ const viewRoles = () => {
     db.query(sql, (err, rows) => {
         if (err) throw err
         console.table(rows);
+        
     })
 };
-
+// This was the last one you copyed 
 const viewEmployees = () => {
     const sql = `SELECT * FROM employees`;
     db.query(sql, (err, rows) => {
         if (err) throw err
         console.table(rows);
+        
     })
 };
 
 const viewAddDepartment = () => {
-    const sql = `SELECT * FROM viewAddDepartment`;
-    db.query(sql, (err, rows) => {
-        if (err) throw err
-        console.table(rows);
-    })
+    console.log("Not Implemented");
+        startPrompt();
+    
+    
+    // const sql = `SELECT * FROM departments`;
+    // db.query(sql, (err, rows) => {
+    //     if (err) throw err
+    //     console.table(rows);
+    //     console.log("Not Implemented");
+    //     startPrompt();
+    // })
 };
 
 const viewAddRole = () => {
-    const sql = `SELECT * FROM viewAddRole`;
-    db.query(sql, (err, rows) => {
-        if (err) throw err
-        console.table(rows);
-    })
+    console.log("Not Implemented");
+        startPrompt();
+    
+    
+    // const sql = `SELECT * FROM roles`;
+    // db.query(sql, (err, rows) => {
+    //     if (err) throw err
+    //     console.table(rows);
+    //     console.log("Not Implemented");
+    //     startPrompt();
+    // })
 };
 
 const viewAddEmployee = () => {
-    const sql = `SELECT * FROM viewAddEmployee`;
-    db.query(sql, (err, rows) => {
-        if (err) throw err
-        console.table(rows);
-    })
+    console.log("Not Implemented");
+        startPrompt();
+    
+    
+    // const sql = `SELECT * FROM employees`;
+    // db.query(sql, (err, rows) => {
+    //     if (err) throw err
+    //     console.table(rows);
+    //     console.log("Not Implemented");
+    //     startPrompt();
+    // })
 };
 
 const viewUpdateAnEmployeeRole = () => {
-    const sql = `SELECT * FROM viewUpdateAnEmployeeRole`;
-    db.query(sql, (err, rows) => {
-        if (err) throw err
-        console.table(rows);
-    })
+    
+    
+    
+     const sql = `SELECT * FROM employees`;
+     db.query(sql, (err, rows) => {
+         if (err) throw err
+         console.table(rows);
+    
+     })
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -20,9 +20,6 @@ CREATE TABLE roles (
 
 
 
-
-
-
 CREATE TABLE employees (
     id INTEGER AUTO_INCREMENT PRIMARY KEY, 
     first_name VARCHAR (33) NOT NULL, 
